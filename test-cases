@@ -1,0 +1,12 @@
+Unit Test Cases-
+
+Precondition- Data will be picked from CSV file row wise which is already created.
+
+1. File extention should be .csv 
+2. Declare Csv file directory path
+3.before we open the file check to see if it already exists
+4. Application should read the CSV line by line.
+5.Firstly create .csv file and write data with header name through code.
+6.Read Same file using header name and sort data year wise then monthly wise and print data on console.
+7. It should read the correct data corresponding to the column. i.e if reading for Company A then it should read the year and price for company a.
+8. It should show the List of company in shorted order with Highest price first.
